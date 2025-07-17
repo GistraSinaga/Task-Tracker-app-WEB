@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+    <div class="container">
+        <h1>TRACKER TUGAS</h1>
+        <h3>Tandai Tugas Kamu Dibawah ini!!</h3>
+        <div class = "input-area" >
+         <input type="text" placeholder="Isi Judul Tugas Kamuu!!" id="Tugas-baru">
+         <input type="datetime-local" id="deadlineInput"><br>
+         <Button onclick="addTask()">Tambah</Button>
+        </div>
+       
+    </div>
+      <div class="List-Tugas">
+            <ul id="taskList"></ul>
+        </div>
+    <script src="Script.js"></script>
+ </body>
+ </html>

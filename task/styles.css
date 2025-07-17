@@ -1,0 +1,86 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.container{
+    background-color: #fefefe;
+    height: 300px;
+    width: 500px;
+    border: 1px solid;
+    border-radius: 1.25rem;
+    justify-items: center;
+    margin-right: 5px;
+}
+
+.input-area{
+    margin-top: 50px;
+}
+
+
+
+
+button{
+    margin-top: 8px;
+    width: 120px;
+    height: 30px;
+    border-radius: 1.25rem;
+    background-color : antiquewhite;
+    cursor: pointer;
+    transition: all ease-out 1s;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+    width: 150px;
+    height: 35px;
+}
+
+input{
+    margin-bottom: 34px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 0.5rem;
+
+}
+
+.input-area input[type="datetime-local"] {
+  padding: 1px;
+  margin-left: 5px;
+  width: 80px;
+}
+
+.List-Tugas{
+    background-color: burlywood;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
